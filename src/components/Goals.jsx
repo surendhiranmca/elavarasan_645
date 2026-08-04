@@ -15,7 +15,7 @@ export default function Goals() {
     },
     {
       id: 2,
-      title: 'Master B.Com (Computer Applications)',
+      title: 'Bachelor of Commerce (Computer Applications)',
       target: 'Undergraduate Degree',
       timeline: 'Present (2025 - 2028)',
       icon: Target,
