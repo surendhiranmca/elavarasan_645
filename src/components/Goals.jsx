@@ -17,7 +17,7 @@ export default function Goals() {
       id: 2,
       title: 'Master B.Com (Computer Applications)',
       target: 'Undergraduate Degree',
-      timeline: 'Present (2026 - 2029)',
+      timeline: 'Present (2025 - 2028)',
       icon: Target,
       description: 'Currently pursuing B.Com (CA) to synthesize financial accounting principles with modern software applications and digital business skills.',
       status: 'Currently Pursuing'
