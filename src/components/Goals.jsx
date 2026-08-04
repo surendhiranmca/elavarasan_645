@@ -33,11 +33,11 @@ export default function Goals() {
     },
     {
       id: 4,
-      title: 'Build a Successful Professional Career',
-      target: 'Commerce & Tech Sector',
-      timeline: 'Long Term Vision',
+      title: 'Become a Financial, Business & Data Analyst',
+      target: 'Financial & Data Analytics',
+      timeline: 'Long Term Career Vision',
       icon: Briefcase,
-      description: 'Establish a rewarding career in financial analysis, corporate accounting, or software-driven commerce enterprises.',
+      description: 'Establish a successful career as a Financial Analyst, Business Analyst, or Data Analyst by leveraging accounting mastery, business intelligence, and data analytics tools.',
       status: 'Future Vision'
     }
   ];

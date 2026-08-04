@@ -8,8 +8,8 @@ export default function About() {
     { icon: BookOpen, title: 'Current Degree', value: 'B.Com (Computer Applications)' },
     { icon: School, title: 'College', value: 'Sacred Heart College (Autonomous)' },
     { icon: MapPin, title: 'University', value: 'Thiruvalluvar University, Tirupattur' },
-    { icon: Target, title: 'Career Target', value: 'Commerce & Financial Technology' },
-    { icon: Award, title: 'Focus Areas', value: 'Financial Accounting & Software Basics' },
+    { icon: Target, title: 'Career Target', value: 'Financial, Business & Data Analyst' },
+    { icon: Award, title: 'Focus Areas', value: 'Financial Analyst, Business Analyst & Data Analysis' },
   ];
 
   return (
@@ -23,7 +23,7 @@ export default function About() {
           </span>
           <h2 className="section-heading">About Me</h2>
           <p className="section-subheading">
-            Dedicated undergraduate student at Sacred Heart College (Autonomous) with a passion for commerce and computer applications.
+            Dedicated undergraduate student at Sacred Heart College (Autonomous) with a passion for Financial Analysis, Business Analysis, and Data Analytics.
           </p>
         </div>
 
@@ -52,14 +52,14 @@ export default function About() {
                 <div>
                   <h3 style={{ fontSize: '1.5rem', fontWeight: 800 }}>Elavarasan</h3>
                   <p style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--primary-600)' }}>
-                    Undergraduate Student • B.Com (Computer Applications)
+                    Undergraduate Student • Aspiring Financial & Data Analyst
                   </p>
                 </div>
               </div>
 
               {/* Exact prompt text */}
               <p style={{ fontSize: '1.05rem', color: 'var(--text-muted)', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-                "I am a dedicated and hardworking undergraduate student currently pursuing <strong style={{ color: 'var(--primary-600)' }}>B.Com (Computer Applications)</strong> at <strong style={{ color: 'var(--text-main)' }}>Sacred Heart College (Autonomous), Tirupattur</strong> (Affiliated with Thiruvalluvar University). Having successfully completed my 12th standard at Islamiah Boys Higher Secondary School, Vaniyambadi, I aim to build a rewarding career combining commerce, financial accounting, and modern software technology."
+                "I am a dedicated and hardworking undergraduate student currently pursuing <strong style={{ color: 'var(--primary-600)' }}>B.Com (Computer Applications)</strong> at <strong style={{ color: 'var(--text-main)' }}>Sacred Heart College (Autonomous), Tirupattur</strong>. I am aiming to build a successful career as a <strong style={{ color: 'var(--primary-600)' }}>Financial Analyst, Business Analyst, and Data Analyst</strong> by combining commerce principles, accounting, and computer data analysis."
               </p>
             </div>
 

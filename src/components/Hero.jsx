@@ -31,14 +31,14 @@ export default function Hero() {
 
             {/* Title Subheading */}
             <h2 className="hero-subtitle">
-              <span>Undergraduate Student</span>
+              <span>Undergraduate B.Com (CA)</span>
               <span style={{ color: 'var(--text-light)', opacity: 0.5 }}>•</span>
-              <span style={{ color: 'var(--primary-600)' }}>B.Com (Computer Applications)</span>
+              <span style={{ color: 'var(--primary-600)' }}>Aspiring Financial, Business & Data Analyst</span>
             </h2>
 
             {/* Description */}
             <p className="hero-desc">
-              Welcome to my digital space! I am a dedicated student currently pursuing <strong style={{ color: 'var(--primary-600)' }}>B.Com (Computer Applications)</strong> at <strong style={{ color: 'var(--text-main)' }}>Sacred Heart College (Autonomous), Tirupattur</strong> (Thiruvalluvar University). Having completed my 12th standard education at Islamiah Boys Higher Secondary School, Vaniyambadi, I am passionate about commerce, finance, and computer applications.
+              Welcome to my digital space! I am a dedicated student pursuing <strong style={{ color: 'var(--primary-600)' }}>B.Com (Computer Applications)</strong> at <strong style={{ color: 'var(--text-main)' }}>Sacred Heart College (Autonomous), Tirupattur</strong>. Aspiring <strong style={{ color: 'var(--primary-600)' }}>Financial Analyst, Business Analyst, and Data Analyst</strong> combining accounting principles with software data analytics.
             </p>
 
             {/* Buttons */}
