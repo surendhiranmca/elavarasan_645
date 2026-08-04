@@ -5,11 +5,11 @@ import { UserCheck, MapPin, School, BookOpen, Target, Sparkles, Award } from 'lu
 export default function About() {
   const details = [
     { icon: UserCheck, title: 'Full Name', value: 'Elavarasan' },
-    { icon: School, title: 'School Name', value: 'Islamiah Boys Higher Secondary School' },
+    { icon: BookOpen, title: 'Current Degree', value: 'B.Com (Computer Applications)' },
+    { icon: School, title: 'Higher Secondary', value: 'Islamiah Boys School (Completed)' },
     { icon: MapPin, title: 'Location', value: 'Vaniyambadi, Tamil Nadu' },
-    { icon: BookOpen, title: 'Current Education', value: '12th Standard (Higher Secondary)' },
-    { icon: Target, title: 'Future Target', value: 'B.Com (Computer Applications)' },
-    { icon: Award, title: 'Focus Areas', value: 'Commerce, Accounting & IT Basics' },
+    { icon: Target, title: 'Career Target', value: 'Commerce & Financial Technology' },
+    { icon: Award, title: 'Focus Areas', value: 'Financial Accounting & Software Basics' },
   ];
 
   return (
@@ -23,7 +23,7 @@ export default function About() {
           </span>
           <h2 className="section-heading">About Me</h2>
           <p className="section-subheading">
-            Dedicated student with a strong passion for business, technology, and academic excellence.
+            Dedicated undergraduate student with a strong passion for commerce, technology, and academic excellence.
           </p>
         </div>
 
@@ -52,14 +52,14 @@ export default function About() {
                 <div>
                   <h3 style={{ fontSize: '1.5rem', fontWeight: 800 }}>Elavarasan</h3>
                   <p style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--primary-600)' }}>
-                    Higher Secondary Student • Future B.Com (CA)
+                    Undergraduate Student • B.Com (Computer Applications)
                   </p>
                 </div>
               </div>
 
               {/* Exact prompt text */}
               <p style={{ fontSize: '1.05rem', color: 'var(--text-muted)', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-                "I am a dedicated and hardworking student currently pursuing my 12th standard at <strong style={{ color: 'var(--text-main)' }}>Islamiah Boys Higher Secondary School, Vaniyambadi</strong>. I aspire to pursue <strong style={{ color: 'var(--primary-600)' }}>B.Com (Computer Applications)</strong> and build a successful career in commerce and technology. I am eager to learn new skills, improve my knowledge, and achieve my professional goals."
+                "I am a dedicated and hardworking undergraduate student currently pursuing <strong style={{ color: 'var(--primary-600)' }}>B.Com (Computer Applications)</strong>. Having successfully completed my 12th standard at <strong style={{ color: 'var(--text-main)' }}>Islamiah Boys Higher Secondary School, Vaniyambadi</strong>, I aim to build a rewarding career combining commerce, financial accounting, and modern software technology."
               </p>
             </div>
 

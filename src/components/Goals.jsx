@@ -6,21 +6,21 @@ export default function Goals() {
   const goalsList = [
     {
       id: 1,
-      title: 'Complete Higher Secondary Education',
-      target: '12th Standard Board Exams',
-      timeline: 'Short Term (2026)',
+      title: 'Higher Secondary Education (12th Standard)',
+      target: '12th Standard Board',
+      timeline: 'Completed',
       icon: GraduationCap,
-      description: 'Pass 12th standard with exemplary marks at Islamiah Boys Higher Secondary School, Vaniyambadi, establishing a solid academic record.',
-      status: 'In Progress'
+      description: 'Successfully completed 12th standard at Islamiah Boys Higher Secondary School, Vaniyambadi, establishing a solid academic record in commerce.',
+      status: 'Completed'
     },
     {
       id: 2,
-      title: 'Pursue B.Com (Computer Applications)',
-      target: 'Undergraduate Admission',
-      timeline: 'Medium Term (2026 - 2029)',
+      title: 'Master B.Com (Computer Applications)',
+      target: 'Undergraduate Degree',
+      timeline: 'Present (2026 - 2029)',
       icon: Target,
-      description: 'Enroll in a reputed college for B.Com (CA) to combine financial accounting mastery with modern software skills.',
-      status: 'Targeted'
+      description: 'Currently pursuing B.Com (CA) to synthesize financial accounting principles with modern software applications and digital business skills.',
+      status: 'Currently Pursuing'
     },
     {
       id: 3,

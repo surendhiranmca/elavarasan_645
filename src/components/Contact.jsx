@@ -49,15 +49,15 @@ export default function Contact() {
     {
       title: 'Full Name',
       value: 'Elavarasan',
-      sub: 'Higher Secondary Student',
+      sub: 'Undergraduate B.Com (CA) Student',
       icon: MessageSquare,
       color: 'rgba(37, 99, 235, 0.1)',
       textColor: 'var(--primary-600)'
     },
     {
-      title: 'School',
+      title: 'Higher Secondary',
       value: 'Islamiah Boys Higher Secondary School',
-      sub: 'Vaniyambadi',
+      sub: 'Completed (Vaniyambadi)',
       icon: School,
       color: 'rgba(6, 182, 212, 0.1)',
       textColor: 'var(--accent-cyan)'

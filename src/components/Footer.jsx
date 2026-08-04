@@ -26,7 +26,7 @@ export default function Footer() {
             </div>
 
             <p className="text-xs text-[var(--text-muted)] max-w-md leading-relaxed">
-              Higher Secondary Student at <strong className="text-[var(--text-main)]">Islamiah Boys Higher Secondary School, Vaniyambadi</strong>. Aspiring B.Com (Computer Applications) student committed to commerce & technology excellence.
+              Undergraduate <strong className="text-[var(--text-main)]">B.Com (Computer Applications)</strong> Student. Completed 12th Standard at <strong className="text-[var(--text-main)]">Islamiah Boys Higher Secondary School, Vaniyambadi</strong>. Committed to commerce & technology excellence.
             </p>
           </div>
 

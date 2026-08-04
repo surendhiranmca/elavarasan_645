@@ -31,14 +31,14 @@ export default function Hero() {
 
             {/* Title Subheading */}
             <h2 className="hero-subtitle">
-              <span>Higher Secondary Student</span>
+              <span>Undergraduate Student</span>
               <span style={{ color: 'var(--text-light)', opacity: 0.5 }}>•</span>
-              <span style={{ color: 'var(--text-muted)' }}>Future B.Com (CA) Student</span>
+              <span style={{ color: 'var(--primary-600)' }}>B.Com (Computer Applications)</span>
             </h2>
 
             {/* Description */}
             <p className="hero-desc">
-              Welcome to my digital space! I am a dedicated student currently pursuing my 12th standard education at <strong style={{ color: 'var(--text-main)' }}>Islamiah Boys Higher Secondary School, Vaniyambadi</strong>. Passionate about commerce, finance, and computer applications, I am building a strong foundation for my upcoming academic journey in <strong style={{ color: 'var(--primary-600)' }}>B.Com (CA)</strong>.
+              Welcome to my digital space! I am a dedicated student currently pursuing my <strong style={{ color: 'var(--primary-600)' }}>B.Com (Computer Applications)</strong> degree. Having completed my 12th standard education at <strong style={{ color: 'var(--text-main)' }}>Islamiah Boys Higher Secondary School, Vaniyambadi</strong>, I am passionate about commerce, finance, business accounting, and computer applications.
             </p>
 
             {/* Buttons */}
@@ -58,21 +58,11 @@ export default function Hero() {
             <div className="hero-stats-grid">
               <div className="stat-item">
                 <div className="stat-icon-box">
-                  <School size={20} />
-                </div>
-                <div>
-                  <div className="stat-label">School</div>
-                  <div className="stat-val">Islamiah Boys</div>
-                </div>
-              </div>
-
-              <div className="stat-item">
-                <div className="stat-icon-box">
                   <GraduationCap size={20} />
                 </div>
                 <div>
-                  <div className="stat-label">Standard</div>
-                  <div className="stat-val">12th Grade</div>
+                  <div className="stat-label">Degree</div>
+                  <div className="stat-val">B.Com (CA)</div>
                 </div>
               </div>
 
@@ -81,8 +71,18 @@ export default function Hero() {
                   <BookOpen size={20} />
                 </div>
                 <div>
-                  <div className="stat-label">Goal</div>
-                  <div className="stat-val">B.Com (CA)</div>
+                  <div className="stat-label">Status</div>
+                  <div className="stat-val">UG Student</div>
+                </div>
+              </div>
+
+              <div className="stat-item">
+                <div className="stat-icon-box">
+                  <School size={20} />
+                </div>
+                <div>
+                  <div className="stat-label">12th Schooling</div>
+                  <div className="stat-val">Islamiah Boys</div>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function Hero() {
               <div className="hero-image-frame">
                 <img
                   src={profileImg}
-                  alt="Elavarasan - Higher Secondary Student"
+                  alt="Elavarasan - B.Com (CA) Undergraduate Student"
                   className="hero-avatar-img"
                 />
               </div>
@@ -115,14 +115,14 @@ export default function Hero() {
                 <div style={{
                   width: '36px', height: '36px', borderRadius: '10px',
                   background: 'var(--primary-600)', color: '#fff',
-                  display: 'flex', alignItems: 'center', justifyCenter: 'center',
-                  fontWeight: 800, fontSize: '0.8rem', paddingLeft: '8px'
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  fontWeight: 800, fontSize: '0.75rem'
                 }}>
-                  12th
+                  UG
                 </div>
                 <div>
-                  <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'var(--text-main)' }}>12th Standard</div>
-                  <div style={{ fontSize: '0.65rem', fontWeight: 700, color: 'var(--primary-600)' }}>Active Student</div>
+                  <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'var(--text-main)' }}>B.Com (CA)</div>
+                  <div style={{ fontSize: '0.65rem', fontWeight: 700, color: 'var(--primary-600)' }}>Active UG Student</div>
                 </div>
               </motion.div>
 
@@ -140,8 +140,8 @@ export default function Hero() {
                   <Award size={20} />
                 </div>
                 <div>
-                  <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'var(--text-main)' }}>Future Goal</div>
-                  <div style={{ fontSize: '0.65rem', fontWeight: 700, color: 'var(--accent-cyan)' }}>B.Com (CA)</div>
+                  <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'var(--text-main)' }}>12th Standard</div>
+                  <div style={{ fontSize: '0.65rem', fontWeight: 700, color: 'var(--accent-cyan)' }}>Completed</div>
                 </div>
               </motion.div>
 

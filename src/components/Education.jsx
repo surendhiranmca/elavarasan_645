@@ -7,13 +7,13 @@ export default function Education() {
     {
       id: 'bcom',
       title: 'Undergraduate Degree: B.Com (Computer Applications)',
-      institution: 'Planned / Future University',
+      institution: 'Undergraduate College / University',
       location: 'Tamil Nadu, India',
-      status: 'Planned / Future Study',
-      period: 'Future Aspiration (2026 - 2029)',
+      status: 'Currently Studying',
+      period: 'Present (2026 - 2029)',
       icon: GraduationCap,
-      side: 'left',
-      description: 'Aims to synthesize financial commerce principles with computer software applications, business data management, and digital skills.',
+      side: 'right',
+      description: 'Actively pursuing B.Com (CA), synthesizing financial commerce principles with computer software applications, business data management, and digital skills.',
       highlights: [
         'Financial & Cost Accounting',
         'Computer Applications & Software Basics',
@@ -25,14 +25,14 @@ export default function Education() {
       title: 'Higher Secondary Education (12th Standard)',
       institution: 'Islamiah Boys Higher Secondary School',
       location: 'Vaniyambadi, Tamil Nadu',
-      status: 'Currently Studying',
-      period: 'Present (2025 - 2026)',
+      status: 'Completed',
+      period: 'Completed (2024 - 2026)',
       icon: School,
-      side: 'right',
-      description: 'Pursuing 12th standard education with high academic commitment, mastering commerce, accountancy, and foundational subjects.',
+      side: 'left',
+      description: 'Successfully completed 12th standard education with high academic commitment, mastering commerce, accountancy, and foundational subjects.',
       highlights: [
-        'Higher Secondary Curriculum',
-        'Active Academic Learner',
+        'Higher Secondary Curriculum Completed',
+        'Strong Foundation in Commerce & Accounts',
         'Islamiah Boys School, Vaniyambadi'
       ]
     }
@@ -49,7 +49,7 @@ export default function Education() {
           </span>
           <h2 className="section-heading">Education Timeline</h2>
           <p className="section-subheading">
-            My current schooling and future higher education goals in commerce and technology.
+            My current undergraduate B.Com (CA) studies and completed higher secondary education in commerce & technology.
           </p>
         </div>
 
