@@ -23,24 +23,24 @@ export default function Skills() {
 
   const skillsData = [
     // Programming & Databases
-    { name: 'C Programming', category: 'programming', level: 85, icon: Code, description: 'Core logic, data structures, algorithms & syntax in C' },
-    { name: 'Python Programming', category: 'programming', level: 88, icon: Terminal, description: 'Object-oriented scripting, data processing & logic' },
-    { name: 'MySQL Database', category: 'programming', level: 82, icon: Database, description: 'Relational database design, queries & SQL management' },
-    { name: 'HTML5 & Web Design (NPTEL)', category: 'programming', level: 92, icon: FileCode, description: 'NPTEL Certified in HTML structure & web fundamentals' },
+    { name: 'C Programming', category: 'programming', level: 70, icon: Code, description: 'Core logic, data structures, algorithms & syntax in C' },
+    { name: 'Python Programming', category: 'programming', level: 65, icon: Terminal, description: 'Object-oriented scripting, data processing & logic' },
+    { name: 'MySQL Database', category: 'programming', level: 60, icon: Database, description: 'Relational database design, queries & SQL management' },
+    { name: 'HTML5 & Web Design (NPTEL)', category: 'programming', level: 70, icon: FileCode, description: 'NPTEL Certified in HTML structure & web fundamentals' },
 
     // Technical & Computer Skills
-    { name: 'Computer Basics', category: 'technical', level: 90, icon: Monitor, description: 'OS fundamentals & digital operations' },
-    { name: 'MS Word', category: 'technical', level: 92, icon: FileText, description: 'Document creation & formatting' },
-    { name: 'MS Excel', category: 'technical', level: 85, icon: Table, description: 'Spreadsheets, formulas & basic data' },
-    { name: 'PowerPoint', category: 'technical', level: 90, icon: Presentation, description: 'Visual presentation design' },
-    { name: 'Internet & Email', category: 'technical', level: 95, icon: Globe, description: 'Web browsing, email etiquette & research' },
+    { name: 'Computer Basics', category: 'technical', level: 75, icon: Monitor, description: 'OS fundamentals & digital operations' },
+    { name: 'MS Word', category: 'technical', level: 72, icon: FileText, description: 'Document creation & formatting' },
+    { name: 'MS Excel', category: 'technical', level: 70, icon: Table, description: 'Spreadsheets, formulas & basic data' },
+    { name: 'PowerPoint', category: 'technical', level: 75, icon: Presentation, description: 'Visual presentation design' },
+    { name: 'Internet & Email', category: 'technical', level: 75, icon: Globe, description: 'Web browsing, email etiquette & research' },
 
     // Soft & Professional Skills
-    { name: 'Communication', category: 'soft', level: 88, icon: MessageSquare, description: 'Clear verbal and written expression' },
-    { name: 'Teamwork', category: 'soft', level: 92, icon: Users, description: 'Collaborative learner and supportive teammate' },
-    { name: 'Problem Solving', category: 'soft', level: 85, icon: Lightbulb, description: 'Analytical approach to challenges' },
-    { name: 'Leadership', category: 'soft', level: 80, icon: ShieldCheck, description: 'Initiative and peer guidance' },
-    { name: 'Time Management', category: 'soft', level: 85, icon: Clock, description: 'Task prioritization and punctuality' }
+    { name: 'Communication', category: 'soft', level: 70, icon: MessageSquare, description: 'Clear verbal and written expression' },
+    { name: 'Teamwork', category: 'soft', level: 75, icon: Users, description: 'Collaborative learner and supportive teammate' },
+    { name: 'Problem Solving', category: 'soft', level: 68, icon: Lightbulb, description: 'Analytical approach to challenges' },
+    { name: 'Leadership', category: 'soft', level: 65, icon: ShieldCheck, description: 'Initiative and peer guidance' },
+    { name: 'Time Management', category: 'soft', level: 72, icon: Clock, description: 'Task prioritization and punctuality' }
   ];
 
   const filteredSkills = activeTab === 'all' 
