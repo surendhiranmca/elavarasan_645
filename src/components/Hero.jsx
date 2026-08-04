@@ -38,7 +38,7 @@ export default function Hero() {
 
             {/* Description */}
             <p className="hero-desc">
-              Welcome to my digital space! I am a dedicated student currently pursuing my <strong style={{ color: 'var(--primary-600)' }}>B.Com (Computer Applications)</strong> degree. Having completed my 12th standard education at <strong style={{ color: 'var(--text-main)' }}>Islamiah Boys Higher Secondary School, Vaniyambadi</strong>, I am passionate about commerce, finance, business accounting, and computer applications.
+              Welcome to my digital space! I am a dedicated student currently pursuing <strong style={{ color: 'var(--primary-600)' }}>B.Com (Computer Applications)</strong> at <strong style={{ color: 'var(--text-main)' }}>Sacred Heart College (Autonomous), Tirupattur</strong> (Thiruvalluvar University). Having completed my 12th standard education at Islamiah Boys Higher Secondary School, Vaniyambadi, I am passionate about commerce, finance, and computer applications.
             </p>
 
             {/* Buttons */}
@@ -68,21 +68,21 @@ export default function Hero() {
 
               <div className="stat-item">
                 <div className="stat-icon-box">
-                  <BookOpen size={20} />
+                  <School size={20} />
                 </div>
                 <div>
-                  <div className="stat-label">Status</div>
-                  <div className="stat-val">UG Student</div>
+                  <div className="stat-label">College</div>
+                  <div className="stat-val">Sacred Heart</div>
                 </div>
               </div>
 
               <div className="stat-item">
                 <div className="stat-icon-box">
-                  <School size={20} />
+                  <BookOpen size={20} />
                 </div>
                 <div>
-                  <div className="stat-label">12th Schooling</div>
-                  <div className="stat-val">Islamiah Boys</div>
+                  <div className="stat-label">University</div>
+                  <div className="stat-val">Thiruvalluvar</div>
                 </div>
               </div>
             </div>

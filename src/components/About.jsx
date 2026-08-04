@@ -6,8 +6,8 @@ export default function About() {
   const details = [
     { icon: UserCheck, title: 'Full Name', value: 'Elavarasan' },
     { icon: BookOpen, title: 'Current Degree', value: 'B.Com (Computer Applications)' },
-    { icon: School, title: 'Higher Secondary', value: 'Islamiah Boys School (Completed)' },
-    { icon: MapPin, title: 'Location', value: 'Vaniyambadi, Tamil Nadu' },
+    { icon: School, title: 'College', value: 'Sacred Heart College (Autonomous)' },
+    { icon: MapPin, title: 'University', value: 'Thiruvalluvar University, Tirupattur' },
     { icon: Target, title: 'Career Target', value: 'Commerce & Financial Technology' },
     { icon: Award, title: 'Focus Areas', value: 'Financial Accounting & Software Basics' },
   ];
@@ -23,7 +23,7 @@ export default function About() {
           </span>
           <h2 className="section-heading">About Me</h2>
           <p className="section-subheading">
-            Dedicated undergraduate student with a strong passion for commerce, technology, and academic excellence.
+            Dedicated undergraduate student at Sacred Heart College (Autonomous) with a passion for commerce and computer applications.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export default function About() {
 
               {/* Exact prompt text */}
               <p style={{ fontSize: '1.05rem', color: 'var(--text-muted)', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-                "I am a dedicated and hardworking undergraduate student currently pursuing <strong style={{ color: 'var(--primary-600)' }}>B.Com (Computer Applications)</strong>. Having successfully completed my 12th standard at <strong style={{ color: 'var(--text-main)' }}>Islamiah Boys Higher Secondary School, Vaniyambadi</strong>, I aim to build a rewarding career combining commerce, financial accounting, and modern software technology."
+                "I am a dedicated and hardworking undergraduate student currently pursuing <strong style={{ color: 'var(--primary-600)' }}>B.Com (Computer Applications)</strong> at <strong style={{ color: 'var(--text-main)' }}>Sacred Heart College (Autonomous), Tirupattur</strong> (Affiliated with Thiruvalluvar University). Having successfully completed my 12th standard at Islamiah Boys Higher Secondary School, Vaniyambadi, I aim to build a rewarding career combining commerce, financial accounting, and modern software technology."
               </p>
             </div>
 

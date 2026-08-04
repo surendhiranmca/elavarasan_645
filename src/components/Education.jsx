@@ -7,17 +7,17 @@ export default function Education() {
     {
       id: 'bcom',
       title: 'Undergraduate Degree: B.Com (Computer Applications)',
-      institution: 'Undergraduate College / University',
-      location: 'Tamil Nadu, India',
+      institution: 'Sacred Heart College (Autonomous), Tirupattur',
+      location: 'Tirupattur, Tamil Nadu (Thiruvalluvar University)',
       status: 'Currently Studying',
       period: 'Present (2025 - 2028)',
       icon: GraduationCap,
       side: 'right',
-      description: 'Actively pursuing B.Com (CA), synthesizing financial commerce principles with computer software applications, business data management, and digital skills.',
+      description: 'Actively pursuing B.Com (CA) at Sacred Heart College (Autonomous), Tirupattur (Affiliated with Thiruvalluvar University), synthesizing financial commerce principles with computer applications and software skills.',
       highlights: [
-        'Financial & Cost Accounting',
-        'Computer Applications & Software Basics',
-        'Business Communication & E-Commerce'
+        'Sacred Heart College (Autonomous), Tirupattur',
+        'Thiruvalluvar University Affiliation',
+        'Financial & Cost Accounting & IT Basics'
       ]
     },
     {
