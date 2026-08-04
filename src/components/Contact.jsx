@@ -80,11 +80,12 @@ export default function Contact() {
     },
     {
       title: 'Phone Number',
-      value: '+91 98765 43210',
-      sub: 'Contact Number Placeholder',
+      value: '+91 93457 67170',
+      sub: 'Direct Call / WhatsApp',
       icon: Phone,
       color: 'rgba(168, 85, 247, 0.1)',
-      textColor: '#9333ea'
+      textColor: '#9333ea',
+      link: 'tel:+919345767170'
     }
   ];
 
@@ -120,8 +121,10 @@ export default function Contact() {
 
             {contactCards.map((card, idx) => {
               const Icon = card.icon;
+              const CardWrapper = card.link ? 'a' : 'div';
+              const extraProps = card.link ? { href: card.link, style: { textDecoration: 'none', color: 'inherit' } } : {};
               return (
-                <div key={idx} className="glass-card" style={{ padding: '1rem 1.25rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                <CardWrapper key={idx} {...extraProps} className="glass-card" style={{ padding: '1rem 1.25rem', display: 'flex', alignItems: 'center', gap: '1rem', cursor: card.link ? 'pointer' : 'default', textDecoration: 'none' }}>
                   <div style={{
                     width: '42px', height: '42px', borderRadius: '14px',
                     background: card.color, color: card.textColor,
@@ -138,7 +141,7 @@ export default function Contact() {
                     </h4>
                     <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{card.sub}</span>
                   </div>
-                </div>
+                </CardWrapper>
               );
             })}
           </motion.div>
