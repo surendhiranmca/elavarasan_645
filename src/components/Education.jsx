@@ -26,7 +26,7 @@ export default function Education() {
       institution: 'Islamiah Boys Higher Secondary School',
       location: 'Vaniyambadi, Tamil Nadu',
       status: 'Completed',
-      period: 'Completed (2023 - 2025)',
+      period: 'Completed (2024 - 2025)',
       icon: School,
       side: 'left',
       description: 'Successfully completed 12th standard education with high academic commitment, mastering commerce, accountancy, and foundational subjects.',
