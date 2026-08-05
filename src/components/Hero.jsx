@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { User, Mail, GraduationCap, School, BookOpen, ArrowRight, Sparkles, Award } from 'lucide-react';
+import { User, Mail, GraduationCap, School, BookOpen, ArrowRight, Sparkles, Award, TrendingUp, BarChart2 } from 'lucide-react';
 import profileImg from '../assets/profile.png';
 
 export default function Hero() {
@@ -106,7 +106,7 @@ export default function Hero() {
                 />
               </div>
 
-              {/* Floating Badge 1 */}
+              {/* Floating Badge 1 - Financial Analytics */}
               <motion.div
                 className="floating-badge-1"
                 animate={{ y: [0, -8, 0] }}
@@ -115,18 +115,17 @@ export default function Hero() {
                 <div style={{
                   width: '36px', height: '36px', borderRadius: '10px',
                   background: 'var(--primary-600)', color: '#fff',
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                  fontWeight: 800, fontSize: '0.75rem'
+                  display: 'flex', alignItems: 'center', justifyContent: 'center'
                 }}>
-                  UG
+                  <TrendingUp size={20} />
                 </div>
                 <div>
-                  <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'var(--text-main)' }}>B.Com (CA)</div>
-                  <div style={{ fontSize: '0.65rem', fontWeight: 700, color: 'var(--primary-600)' }}>Active UG Student</div>
+                  <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'var(--text-main)' }}>Financial Analytics</div>
+                  <div style={{ fontSize: '0.65rem', fontWeight: 700, color: 'var(--primary-600)' }}>Core Focus</div>
                 </div>
               </motion.div>
 
-              {/* Floating Badge 2 */}
+              {/* Floating Badge 2 - Data Analytics */}
               <motion.div
                 className="floating-badge-2"
                 animate={{ y: [0, 8, 0] }}
@@ -137,11 +136,11 @@ export default function Hero() {
                   background: 'var(--accent-cyan)', color: '#fff',
                   display: 'flex', alignItems: 'center', justifyContent: 'center'
                 }}>
-                  <Award size={20} />
+                  <BarChart2 size={20} />
                 </div>
                 <div>
-                  <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'var(--text-main)' }}>12th Standard</div>
-                  <div style={{ fontSize: '0.65rem', fontWeight: 700, color: 'var(--accent-cyan)' }}>Completed</div>
+                  <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'var(--text-main)' }}>Data Analytics</div>
+                  <div style={{ fontSize: '0.65rem', fontWeight: 700, color: 'var(--accent-cyan)' }}>Core Specialization</div>
                 </div>
               </motion.div>
 
