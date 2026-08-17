@@ -6,6 +6,7 @@ const navLinks = [
   { name: 'About', href: '#about' },
   { name: 'Education', href: '#education' },
   { name: 'Skills', href: '#skills' },
+  { name: 'Projects', href: '#projects' },
   { name: 'Goals', href: '#goals' },
   { name: 'Achievements', href: '#achievements' },
   { name: 'Contact', href: '#contact' },

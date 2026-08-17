@@ -72,11 +72,12 @@ export default function Contact() {
     },
     {
       title: 'Email Address',
-      value: 'elavarasan.student@example.com',
-      sub: 'Official Contact Placeholder',
+      value: 'elavarasan.bcomca@gmail.com',
+      sub: 'Official Contact Email',
       icon: Mail,
       color: 'rgba(16, 185, 129, 0.1)',
-      textColor: '#059669'
+      textColor: '#059669',
+      link: 'mailto:elavarasan.bcomca@gmail.com'
     },
     {
       title: 'Phone Number',
