@@ -19,6 +19,7 @@ import {
 import confetti from 'canvas-confetti';
 import swayamCertImg from '../assets/swayam_certificate_full.png';
 import swayamCertPdf from '../assets/swayam_certificate.pdf';
+import nptelPythonImg from '../assets/nptel_python_datascience.png';
 
 export default function Achievements() {
   const [selectedCertificate, setSelectedCertificate] = useState(null);
@@ -52,6 +53,33 @@ export default function Achievements() {
     },
     {
       id: 2,
+      title: 'NPTEL Python for Data Science Certification',
+      category: 'Certifications',
+      year: '2026',
+      institution: 'NPTEL • IIT Madras',
+      description: 'Registered & verified for the official NPTEL online course "Python for Data Science" mastering NumPy, Pandas data structures, data visualization, and predictive analytics.',
+      icon: Award,
+      badge: 'NPTEL Registered',
+      hasCertificate: true,
+      buttonText: 'View NPTEL Course Credential',
+      certificateDetails: {
+        title: 'NPTEL Online Certification: Python for Data Science',
+        recipient: 'Elavarasan A',
+        course: 'Python for Data Science',
+        score: 'Proctored Exam Registered',
+        credits: 'NPTEL Online Course',
+        examDate: 'August 2026 Semester',
+        offeredBy: 'NPTEL / IIT Madras',
+        nationalCoordinator: 'NPTEL Online Portal',
+        rollNo: 'NPTEL2026-PYDS',
+        issuedDate: 'August 2026',
+        image: nptelPythonImg,
+        pdf: null,
+        verifyUrl: 'https://swayam.gov.in/'
+      }
+    },
+    {
+      id: 3,
       title: 'Financial Accounting & Data Analytics Mastery',
       category: 'Financial Analytics',
       year: '2025',
@@ -61,7 +89,7 @@ export default function Achievements() {
       badge: 'Core Focus'
     },
     {
-      id: 3,
+      id: 4,
       title: 'Programming & Database Proficiency (C, Python & MySQL)',
       category: 'Programming & IT',
       year: '2025',
@@ -71,7 +99,7 @@ export default function Achievements() {
       badge: 'C • Python • MySQL'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Higher Secondary Commerce & Accountancy Honors',
       category: 'Academic',
       year: '2024 - 2025',
@@ -81,7 +109,7 @@ export default function Achievements() {
       badge: 'Completed'
     },
     {
-      id: 5,
+      id: 6,
       title: 'Computer Basics & MS Office Applications Certification',
       category: 'Certifications',
       year: '2025',
@@ -91,7 +119,7 @@ export default function Achievements() {
       badge: 'Certified'
     },
     {
-      id: 6,
+      id: 7,
       title: 'Seminar Presentations & Academic Leadership',
       category: 'Leadership',
       year: 'Present (2025 - 2028)',
@@ -341,25 +369,27 @@ export default function Achievements() {
 
               {/* Action Buttons */}
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', paddingTop: '0.5rem' }}>
-                <a
-                  href={selectedCertificate.pdf}
-                  download="SWAYAM_Certificate_Elavarasan.pdf"
-                  className="btn btn-primary"
-                  style={{ flex: 1, padding: '0.8rem', justifyContent: 'center' }}
-                >
-                  <Download size={18} />
-                  <span>Download Official PDF Certificate</span>
-                </a>
+                {selectedCertificate.pdf && (
+                  <a
+                    href={selectedCertificate.pdf}
+                    download="SWAYAM_Certificate_Elavarasan.pdf"
+                    className="btn btn-primary"
+                    style={{ flex: 1, padding: '0.8rem', justifyContent: 'center' }}
+                  >
+                    <Download size={18} />
+                    <span>Download Official PDF Certificate</span>
+                  </a>
+                )}
 
                 <a
                   href={selectedCertificate.verifyUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-secondary"
+                  className={selectedCertificate.pdf ? 'btn btn-secondary' : 'btn btn-primary'}
                   style={{ flex: 1, padding: '0.8rem', justifyContent: 'center' }}
                 >
                   <ExternalLink size={18} />
-                  <span>Verify on SWAYAM Portal</span>
+                  <span>Verify on NPTEL / SWAYAM Portal</span>
                 </a>
               </div>
             </motion.div>
