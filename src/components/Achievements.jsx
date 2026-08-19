@@ -166,6 +166,25 @@ export default function Achievements() {
     });
   };
 
+  const handleDownloadPdf = async (pdfUrl, filename = 'SWAYAM_Certificate_Elavarasan.pdf') => {
+    try {
+      const response = await fetch(pdfUrl);
+      if (!response.ok) throw new Error('Fetch failed');
+      const blob = await response.blob();
+      const blobUrl = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = blobUrl;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(blobUrl);
+    } catch (err) {
+      console.error('Blob download failed, opening in new tab:', err);
+      window.open(pdfUrl, '_blank');
+    }
+  };
+
   return (
     <section id="achievements" className="section section-alt">
       <div className="container">
@@ -370,15 +389,15 @@ export default function Achievements() {
               {/* Action Buttons */}
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', paddingTop: '0.5rem' }}>
                 {selectedCertificate.pdf && (
-                  <a
-                    href={selectedCertificate.pdf}
-                    download="SWAYAM_Certificate_Elavarasan.pdf"
+                  <button
+                    type="button"
+                    onClick={() => handleDownloadPdf(selectedCertificate.pdf, 'SWAYAM_Certificate_Elavarasan.pdf')}
                     className="btn btn-primary"
-                    style={{ flex: 1, padding: '0.8rem', justifyContent: 'center' }}
+                    style={{ flex: 1, padding: '0.8rem', justifyContent: 'center', cursor: 'pointer' }}
                   >
                     <Download size={18} />
                     <span>Download Official PDF Certificate</span>
-                  </a>
+                  </button>
                 )}
 
                 <a
