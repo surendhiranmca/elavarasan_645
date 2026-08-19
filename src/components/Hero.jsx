@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { User, Mail, GraduationCap, School, BookOpen, ArrowRight, Sparkles, Award, TrendingUp, BarChart2 } from 'lucide-react';
-import profileImg from '../assets/profile.png';
+import profileImg from '../assets/profile.jpg';
 
 export default function Hero() {
   return (

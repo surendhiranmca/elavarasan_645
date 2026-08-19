@@ -514,13 +514,13 @@ h1, h2, h3, h4, h5, h6 {
 .hero-image-wrapper {
   position: relative;
   width: 320px;
-  height: 320px;
+  height: 400px;
   margin: 0 auto;
 }
 @media (min-width: 640px) {
   .hero-image-wrapper {
     width: 360px;
-    height: 360px;
+    height: 440px;
   }
 }
 
@@ -540,6 +540,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 20%;
   border-radius: 18px;
 }
 
